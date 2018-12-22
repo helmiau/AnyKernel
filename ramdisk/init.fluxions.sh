@@ -48,11 +48,11 @@ chmod 0664 /sys/devices/platform/kcal_ctrl.0/kcal_val
 
 # KCAL
 write /sys/devices/platform/kcal_ctrl.0/kcal_enable 1
-write /sys/devices/platform/kcal_ctrl.0/kcal "256 256 256"
-write /sys/devices/platform/kcal_ctrl.0/kcal_sat 45
+write /sys/devices/platform/kcal_ctrl.0/kcal "256 256 256"	
+write /sys/devices/platform/kcal_ctrl.0/kcal_sat 30
 write /sys/devices/platform/kcal_ctrl.0/kcal_hue 0
-write /sys/devices/platform/kcal_ctrl.0/kcal_val 131
-write /sys/devices/platform/kcal_ctrl.0/kcal_cont 131
+write /sys/devices/platform/kcal_ctrl.0/kcal_val 4
+write /sys/devices/platform/kcal_ctrl.0/kcal_cont 4
 
 # Schedutil & Stune
 chown system system /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
